@@ -62,4 +62,6 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,     XK_u,      toggle,      { .v = (void*) &urgentswitch } },
     //{ MODKEY,               },
 	{ 0,                    XK_F11,    fullscreen,  { 0 } },
+    { MODKEY,               XK_b, showbar,    { .i = 1 } },
+    { MODKEY|ALTKEY,        XK_b, showbar,    { .i = 0 } },
 };
